@@ -1,3 +1,4 @@
 [build-system]
 # Minimum requirements for the build system to execute.
-requires = ["Cython>=0.29.34", "setuptools>=32.0.0"]
+requires = ["cython", "setuptools"]
+build-backend = "setuptools.build_meta"
