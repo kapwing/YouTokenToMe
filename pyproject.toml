@@ -5,5 +5,5 @@ dependencies = ["Click>=7.0"]
 
 [build-system]
 # Minimum requirements for the build system to execute.
-requires = ["cython", "setuptools"]
+requires = ["cython<3", "setuptools"]
 build-backend = "setuptools.build_meta"
