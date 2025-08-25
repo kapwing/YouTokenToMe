@@ -1,8 +1,3 @@
-[project]
-name = "youtokentome"
-version = "1.0.6"
-dependencies = ["Click>=7.0"]
-
 [build-system]
 # Minimum requirements for the build system to execute.
 requires = ["cython<3", "setuptools"]
